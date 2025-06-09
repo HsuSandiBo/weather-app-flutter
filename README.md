@@ -34,7 +34,7 @@ Exit menu - Simple logout functionality.
 
 
 # How to Run the App
-Clone this repository: git clone https://github.com/yourusername/flutter-weather-university-app.git
+Clone this repository: git clone [https://github.com/yourusername/flutter-weather-university-app.git](https://github.com/HsuSandiBo/weather-app-flutter)
 Install dependencies: flutter pub get
 Run the app: flutter run
 
