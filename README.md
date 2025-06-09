@@ -45,5 +45,5 @@ Building a simple user authentication flow with local storage
 Designing user interfaces with Flutter’s Material Design components
 
 # Author
-Hsu SANDI BO
+Hsu Sandi Bo
 ICT Student at Rangsit University
