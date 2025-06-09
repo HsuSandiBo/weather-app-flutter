@@ -1,16 +1,49 @@
-# assignment12_6509966_ict425
+# Flutter Weather & University Info App
 
-A new Flutter project.
+A mobile application built with Flutter that combines real-time weather and air pollution data with university-related features. The app includes user authentication, and displays a list of university lecturers. It fetches weather details based on the user’s current location.
 
-## Getting Started
+# Features
 
-This project is a starting point for a Flutter application.
+Login - Users can log in with email & password if already signed up.
+Register - Users have to register with their personal information.
+Profile - Displays user's name and 3 menus list that are employee, weather & exit.
+Employee - Shows a list of employees with their names & positions.
+Weather - Fetches temperature & air pollution data based on the user's current location using GPS.
+Exit menu - Simple logout functionality. 
 
-A few resources to get you started if this is your first Flutter project:
+# Tech Stack
+-Flutter (Dart)
+-Local Storage to store login data 
+-Location Package to access GPS data
+-HTTP / API Integration
+-Custom UI Design (Material Design)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Login](screenshots/logInPage.JPG)
+[Register](screenshots/signUpPage.JPG)
+[Confirm](screenshots/confirmScreen.JPG)
+[Profile](screenshots/profilePage.JPG) 
+[Employee](screenshots/employeePage.JPG)
+[Employee Detail](screenshots/employeeDetailPage.JPG)
+[Location Permission](screenshots/locationPermisPage.JPG)
+[Temperature Unit](screenshots/tempUnit.JPG)
+[Weather in Celsius](screenshots/weatherPage.JPG)
+[Weather in Fahrenheit](screenshots/weatherPage2.JPG)
+[Air Pollution](screenshots/airpollutionPage.JPG)
+
+
+# How to Run the App
+Clone this repository: git clone https://github.com/yourusername/flutter-weather-university-app.git
+Install dependencies: flutter pub get
+Run the app: flutter run
+
+# What I Learned
+Using location-based services in Flutter
+Integrating third-party APIs (for weather and air quality data)
+Building a simple user authentication flow with local storage
+Designing user interfaces with Flutter’s Material Design components
+
+# Author
+Hsu SANDI BO
+ICT Student at Rangsit University
